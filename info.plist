@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>Clipist</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.clipist.Clipist</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Clipist</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2025 Clipist. All rights reserved.</string>
+	<key>NSMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>This app needs access to control other applications to capture selected text.</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+</dict>
+</plist>

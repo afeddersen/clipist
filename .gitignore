@@ -1,0 +1,77 @@
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Xcode User Settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+/build/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# fastlane/report.xml
+# fastlane/Preview.html
+# fastlane/screenshots/**/*.png
+# fastlane/test_output
+
+## IDE Settings & AI Tools
+.cursor/
+.cursorignore
+.cursorrules
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Documentation (keep only README.md public)
+LAUNCH.md
+CLAUDE.md
+docs/
+
+## Personal/Business Information
+scripts/
+
+## Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+*.certSigningRequest
+
+## Temporary files
+*.log
+*.tmp
+.cache/

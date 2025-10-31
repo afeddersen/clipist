@@ -101,6 +101,7 @@ Clipist/
 ### Architecture Notes
 
 **Text Capture Flow:**
+
 1. User presses Cmd+Shift+Y
 2. App records current clipboard state (using changeCount)
 3. Simulates Cmd+C using CGEvent API
@@ -109,11 +110,13 @@ Clipist/
 6. Restores original clipboard with safeguards
 
 **Hotkey Registration:**
+
 - Uses Carbon Events API (RegisterEventHotKey)
 - Registers Cmd+Shift+Y (key code 0x10)
 - Posts notification when pressed, handled by handleHotKey
 
 **Permission Requirements:**
+
 - Accessibility: Required to simulate keystrokes and read clipboard
 - Input Monitoring: Required for global hotkey functionality
 - Notifications: Optional, for user feedback
@@ -121,14 +124,17 @@ Clipist/
 ## Troubleshooting
 
 **Hotkey not working:**
+
 - Check Input Monitoring permission in System Settings > Privacy & Security > Input Monitoring
 - Ensure no other app is using Cmd+Shift+Y
 
 **Text not capturing:**
+
 - Verify Accessibility permission is granted
 - Try restarting the app after granting permissions
 
 **Tasks not appearing in Todoist:**
+
 - Verify your API token is correct
 - Check your internet connection
 - Look for error notifications
